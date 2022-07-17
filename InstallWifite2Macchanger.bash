@@ -1,3 +1,9 @@
+#deb http://raspbian.raspberrypi.org/raspbian/ buster main contrib non-free rpi
+# Uncomment line below then 'apt-get update' to enable 'apt-get source'
+# deb-src http://raspbian.raspberrypi.org/raspbian/ buster main contrib non-free rpi
+#deb http://mirror.yandex.ru/mirrors/raspbian/  buster main contrib non-free rpi 
+#!!!!В РФ РАБОТАЕТ!!!! зеркало выше
+
 #!/bin/bash
 cd /home/pi/
 sudo apt install macchanger
